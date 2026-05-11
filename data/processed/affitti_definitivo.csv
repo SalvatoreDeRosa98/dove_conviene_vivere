@@ -1,0 +1,131 @@
+import pandas as pd
+import cloudscraper
+from bs4 import BeautifulSoup
+import re
+import time
+import random
+
+print(">>> Avvio Scraping Costo della Vita (Numbeo)...")
+
+scraper = cloudscraper.create_scraper(
+    browser={'browser': 'chrome', 'platform': 'windows', 'desktop': True}
+)
+
+def formatta_citta_numbeo(citta):
+    """Formatta il nome per gli URL di Numbeo (es. 'Reggio Emilia' -> 'Reggio-Emilia')"""
+    if pd.isna(citta):
+        return ""
+    
+    # Numbeo in italiano usa spesso il nome con le iniziali maiuscole e i trattini
+    citta = str(citta).strip().title()
+    
+    # Eccezioni note per Numbeo
+    eccezioni = {
+        "Monza E Della Brianza": "Monza",
+        "Reggio Nell'Emilia": "Reggio-Emilia",
+        "Reggio Di Calabria": "Reggio-Calabria",
+        "Forlì-Cesena": "Forli",
+        "Pesaro E Urbino": "Pesaro",
+        "Massa-Carrara": "Massa",
+        "Valle D'Aosta/Vallée D'Aoste": "Aosta",
+        "Bolzano/Bozen": "Bolzano"
+    }
+    
+    if citta in eccezioni:
+        return eccezioni[citta]
+        
+    citta = citta.replace(" ", "-").replace("'", "-")
+    citta = citta.replace("ì", "i").replace("ò", "o").replace("à", "a").replace("è", "e").replace("é", "e")
+    return citta
+
+def estrai_dati_numbeo(citta):
+    citta_url = formatta_citta_numbeo(citta)
+    if not citta_url:
+        return None, None
+
+    url = f"https://it.numbeo.com/costo-della-vita/città/{citta_url}"
+    
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+        "Accept-Language": "it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7"
+    }
+
+    try:
+        r = scraper.get(url, headers=headers, timeout=10)
+        
+        if r.status_code == 200:
+            soup = BeautifulSoup(r.text, 'html.parser')
+            testo = soup.get_text()
+            
+            # Regex per cercare i costi (Numbeo formatta così: "una singola persona sono 850,50 €")
+            # Cerchiamo cifre con o senza decimali
+            match_single = re.search(r"singola persona.*? ([\d\.,]+)\s*€", testo, re.IGNORECASE)
+            match_famiglia = re.search(r"famiglia di 4 persone.*? ([\d\.,]+)\s*€", testo, re.IGNORECASE)
+            
+            costo_single = None
+            costo_famiglia = None
+            
+            if match_single:
+                # Pulizia della stringa numerica (togliamo i punti delle migliaia e cambiamo virgola in punto)
+                val_str = match_single.group(1).replace('.', '').replace(',', '.')
+                costo_single = float(val_str)
+                
+            if match_famiglia:
+                val_str = match_famiglia.group(1).replace('.', '').replace(',', '.')
+                costo_famiglia = float(val_str)
+                
+            return costo_single, costo_famiglia
+            
+        elif r.status_code == 404:
+            print(f"      [!] Città non trovata su Numbeo: {citta}")
+            return None, None
+        else:
+            print(f"      [!] Errore {r.status_code} dal server")
+            return None, None
+            
+    except Exception as e:
+        print(f"      [!] Errore connessione: {e}")
+        return None, None
+
+def main():
+    try:
+        df = pd.read_csv("affitti_definitivo.csv")
+    except FileNotFoundError:
+        print("ERRORE: File 'affitti_definitivo.csv' non trovato!")
+        return
+
+    # Prepariamo le nuove colonne
+    costi_single = []
+    costi_famiglia = []
+    
+    print(f">>> Inizio estrazione per {len(df)} province. (Ci vorranno un po' di minuti)")
+
+    for idx, row in df.iterrows():
+        citta = row['provincia']
+        print(f"[{idx+1}/{len(df)}] Analisi di {citta} su Numbeo...")
+        
+        single, famiglia = estrai_dati_numbeo(citta)
+        
+        if single or famiglia:
+            print(f"  --> TROVATO: Single {single}€ | Famiglia {famiglia}€")
+        else:
+            print("  --> Nessun dato Numbeo disponibile per questa città.")
+            
+        costi_single.append(single)
+        costi_famiglia.append(famiglia)
+        
+        # Pausa vitale per non farci bloccare da Numbeo
+        time.sleep(random.uniform(2.5, 4.5))
+
+    # Inseriamo i dati nel dataframe
+    df['costo_vita_single'] = costi_single
+    df['costo_vita_famiglia'] = costi_famiglia
+    
+    # Salviamo il VERO dataset completo
+    nome_file = "dataset_reale_completo.csv"
+    df.to_csv(nome_file, index=False)
+    
+    print(f"\n✅ Finito! Dati reali salvati in '{nome_file}'.")
+
+if __name__ == "__main__":
+    main()

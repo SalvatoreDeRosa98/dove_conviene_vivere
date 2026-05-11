@@ -1,0 +1,111 @@
+codice_uts,provincia,sigla,regione,ripartizione,tipologia_uts,tipologia_uts_nome,affitto_mensile_monolocale,affitto_mensile_bilocale,costo_vita_single,costo_vita_coppia,costo_vita_famiglia,stipendio_medio_lordo,fonte_affitto,fonte_costo_vita,fonte_stipendio,prezzo_affitto_mq,affitto_stimato_55mq
+69,Chieti,CH,Abruzzo,Sud,1,Provincia,,,,,,,,,,6.19,340.45000000000005
+66,L'Aquila,AQ,Abruzzo,Sud,1,Provincia,,,,,,,,,,7.69,422.95000000000005
+68,Pescara,PE,Abruzzo,Sud,1,Provincia,,,,,,,,,,8.6,473.0
+67,Teramo,TE,Abruzzo,Sud,1,Provincia,,,,,,,,,,7.73,425.15000000000003
+77,Matera,MT,Basilicata,Sud,1,Provincia,,,,,,,,,,8.06,443.3
+76,Potenza,PZ,Basilicata,Sud,1,Provincia,,,,,,,,,,6.26,344.3
+79,Catanzaro,CZ,Calabria,Sud,1,Provincia,,,,,,,,,,7.43,408.65
+78,Cosenza,CS,Calabria,Sud,1,Provincia,,,,,,,,,,5.94,326.70000000000005
+101,Crotone,KR,Calabria,Sud,1,Provincia,,,,,,,,,,7.15,393.25
+280,Reggio Calabria,RC,Calabria,Sud,3,Citta metropolitana,,,,,,,,,,5.21,286.55
+102,Vibo Valentia,VV,Calabria,Sud,1,Provincia,,,,,,,,,,5.31,292.04999999999995
+64,Avellino,AV,Campania,Sud,1,Provincia,,,,,,,,,,6.36,349.8
+62,Benevento,BN,Campania,Sud,1,Provincia,,,,,,,,,,6.39,351.45
+61,Caserta,CE,Campania,Sud,1,Provincia,,,,,,,,,,6.76,371.8
+263,Napoli,,Campania,Sud,3,Citta metropolitana,,,,,,,,,,10.74,590.7
+65,Salerno,SA,Campania,Sud,1,Provincia,,,,,,,,,,9.87,542.8499999999999
+237,Bologna,BO,Emilia-Romagna,Nord-est,3,Citta metropolitana,,,,,,,,,,15.45,849.75
+38,Ferrara,FE,Emilia-Romagna,Nord-est,1,Provincia,,,,,,,,,,9.72,534.6
+40,Forlì-Cesena,FC,Emilia-Romagna,Nord-est,1,Provincia,,,,,,,,,,9.49,521.95
+36,Modena,MO,Emilia-Romagna,Nord-est,1,Provincia,,,,,,,,,,11.67,641.85
+34,Parma,PR,Emilia-Romagna,Nord-est,1,Provincia,,,,,,,,,,11.43,628.65
+33,Piacenza,PC,Emilia-Romagna,Nord-est,1,Provincia,,,,,,,,,,8.97,493.35
+39,Ravenna,RA,Emilia-Romagna,Nord-est,1,Provincia,,,,,,,,,,13.02,716.1
+35,Reggio nell'Emilia,RE,Emilia-Romagna,Nord-est,1,Provincia,,,,,,,,,,9.29,510.94999999999993
+99,Rimini,RN,Emilia-Romagna,Nord-est,1,Provincia,,,,,,,,,,13.07,718.85
+31,Gorizia,GO,Friuli-Venezia Giulia,Nord-est,5,Ente di decentramento regionale,,,,,,,,,,8.44,464.2
+93,Pordenone,PN,Friuli-Venezia Giulia,Nord-est,5,Ente di decentramento regionale,,,,,,,,,,8.63,474.65000000000003
+32,Trieste,TS,Friuli-Venezia Giulia,Nord-est,5,Ente di decentramento regionale,,,,,,,,,,10.61,583.55
+30,Udine,UD,Friuli-Venezia Giulia,Nord-est,5,Ente di decentramento regionale,,,,,,,,,,8.54,469.69999999999993
+60,Frosinone,FR,Lazio,Centro,1,Provincia,,,,,,,,,,6.48,356.40000000000003
+59,Latina,LT,Lazio,Centro,1,Provincia,,,,,,,,,,10.44,574.1999999999999
+57,Rieti,RI,Lazio,Centro,1,Provincia,,,,,,,,,,7.85,431.75
+258,Roma,RM,Lazio,Centro,3,Citta metropolitana,,,,,,,,,,15.04,827.1999999999999
+56,Viterbo,VT,Lazio,Centro,1,Provincia,,,,,,,,,,7.3,401.5
+210,Genova,GE,Liguria,Nord-ovest,3,Citta metropolitana,,,,,,,,,,9.71,534.0500000000001
+8,Imperia,IM,Liguria,Nord-ovest,1,Provincia,,,,,,,,,,11.93,656.15
+11,La Spezia,SP,Liguria,Nord-ovest,1,Provincia,,,,,,,,,,10.13,557.1500000000001
+9,Savona,SV,Liguria,Nord-ovest,1,Provincia,,,,,,,,,,13.42,738.1
+16,Bergamo,BG,Lombardia,Nord-ovest,1,Provincia,,,,,,,,,,10.33,568.15
+17,Brescia,BS,Lombardia,Nord-ovest,1,Provincia,,,,,,,,,,11.06,608.3000000000001
+13,Como,CO,Lombardia,Nord-ovest,1,Provincia,,,,,,,,,,12.03,661.65
+19,Cremona,CR,Lombardia,Nord-ovest,1,Provincia,,,,,,,,,,8.24,453.2
+97,Lecco,LC,Lombardia,Nord-ovest,1,Provincia,,,,,,,,,,9.45,519.75
+98,Lodi,LO,Lombardia,Nord-ovest,1,Provincia,,,,,,,,,,8.97,493.35
+20,Mantova,MN,Lombardia,Nord-ovest,1,Provincia,,,,,,,,,,8.54,469.69999999999993
+215,Milano,MI,Lombardia,Nord-ovest,3,Citta metropolitana,,,,,,,,,,21.13,1162.1499999999999
+108,Monza e della Brianza,MB,Lombardia,Nord-ovest,1,Provincia,,,,,,,,,,11.62,639.0999999999999
+18,Pavia,PV,Lombardia,Nord-ovest,1,Provincia,,,,,,,,,,9.35,514.25
+14,Sondrio,SO,Lombardia,Nord-ovest,1,Provincia,,,,,,,,,,9.9,544.5
+12,Varese,VA,Lombardia,Nord-ovest,1,Provincia,,,,,,,,,,10.14,557.7
+42,Ancona,AN,Marche,Centro,1,Provincia,,,,,,,,,,8.55,470.25000000000006
+44,Ascoli Piceno,AP,Marche,Centro,1,Provincia,,,,,,,,,,9.17,504.35
+109,Fermo,FM,Marche,Centro,1,Provincia,,,,,,,,,,,
+43,Macerata,MC,Marche,Centro,1,Provincia,,,,,,,,,,9.15,503.25
+41,Pesaro e Urbino,PU,Marche,Centro,1,Provincia,,,,,,,,,,8.44,464.2
+70,Campobasso,CB,Molise,Sud,1,Provincia,,,,,,,,,,6.99,384.45
+94,Isernia,IS,Molise,Sud,1,Provincia,,,,,,,,,,5.44,299.20000000000005
+6,Alessandria,AL,Piemonte,Nord-ovest,1,Provincia,,,,,,,,,,6.28,345.40000000000003
+5,Asti,AT,Piemonte,Nord-ovest,1,Provincia,,,,,,,,,,6.7,368.5
+96,Biella,BI,Piemonte,Nord-ovest,1,Provincia,,,,,,,,,,6.02,331.09999999999997
+4,Cuneo,CN,Piemonte,Nord-ovest,1,Provincia,,,,,,,,,,7.13,392.15
+3,Novara,NO,Piemonte,Nord-ovest,1,Provincia,,,,,,,,,,9.69,532.9499999999999
+201,Torino,TO,Piemonte,Nord-ovest,3,Citta metropolitana,,,,,,,,,,10.08,554.4
+103,Verbano-Cusio-Ossola,VB,Piemonte,Nord-ovest,1,Provincia,,,,,,,,,,,
+2,Vercelli,VC,Piemonte,Nord-ovest,1,Provincia,,,,,,,,,,7.05,387.75
+272,Bari,BA,Puglia,Sud,3,Citta metropolitana,,,,,,,,,,9.8,539.0
+110,Barletta-Andria-Trani,BT,Puglia,Sud,1,Provincia,,,,,,,,,,7.8,429.0
+74,Brindisi,BR,Puglia,Sud,1,Provincia,,,,,,,,,,7.36,404.8
+71,Foggia,FG,Puglia,Sud,1,Provincia,,,,,,,,,,6.65,365.75
+75,Lecce,LE,Puglia,Sud,1,Provincia,,,,,,,,,,8.16,448.8
+73,Taranto,TA,Puglia,Sud,1,Provincia,,,,,,,,,,6.9,379.5
+318,Cagliari,CA,Sardegna,Isole,3,Citta metropolitana,,,,,,,,,,11.24,618.2
+113,Gallura Nord-Est Sardegna,OT,Sardegna,Isole,1,Provincia,,,,,,,,,,,
+117,Medio Campidano,VS,Sardegna,Isole,1,Provincia,,,,,,,,,,6.52,358.59999999999997
+114,Nuoro,NU,Sardegna,Isole,1,Provincia,,,,,,,,,,16.71,919.0500000000001
+116,Ogliastra,OG,Sardegna,Isole,1,Provincia,,,,,,,,,,16.71,919.0500000000001
+115,Oristano,OR,Sardegna,Isole,1,Provincia,,,,,,,,,,,
+312,Sassari,SS,Sardegna,Isole,3,Citta metropolitana,,,,,,,,,,13.27,729.85
+119,Sulcis Iglesiente,CI,Sardegna,Isole,1,Provincia,,,,,,,,,,,
+84,Agrigento,AG,Sicilia,Isole,4,Libero consorzio comunale,,,,,,,,,,5.36,294.8
+85,Caltanissetta,CL,Sicilia,Isole,4,Libero consorzio comunale,,,,,,,,,,4.46,245.3
+287,Catania,CT,Sicilia,Isole,3,Citta metropolitana,,,,,,,,,,8.13,447.15000000000003
+86,Enna,EN,Sicilia,Isole,4,Libero consorzio comunale,,,,,,,,,,4.08,224.4
+283,Messina,ME,Sicilia,Isole,3,Citta metropolitana,,,,,,,,,,7.69,422.95000000000005
+282,Palermo,PA,Sicilia,Isole,3,Citta metropolitana,,,,,,,,,,7.87,432.85
+88,Ragusa,RG,Sicilia,Isole,4,Libero consorzio comunale,,,,,,,,,,6.16,338.8
+89,Siracusa,SR,Sicilia,Isole,4,Libero consorzio comunale,,,,,,,,,,7.89,433.95
+81,Trapani,TP,Sicilia,Isole,4,Libero consorzio comunale,,,,,,,,,,5.96,327.8
+51,Arezzo,AR,Toscana,Centro,1,Provincia,,,,,,,,,,7.81,429.54999999999995
+248,Firenze,FI,Toscana,Centro,3,Citta metropolitana,,,,,,,,,,18.08,994.3999999999999
+53,Grosseto,GR,Toscana,Centro,1,Provincia,,,,,,,,,,14.79,813.4499999999999
+49,Livorno,LI,Toscana,Centro,1,Provincia,,,,,,,,,,10.2,561.0
+46,Lucca,LU,Toscana,Centro,1,Provincia,,,,,,,,,,16.19,890.45
+45,Massa-Carrara,MS,Toscana,Centro,1,Provincia,,,,,,,,,,11.74,645.7
+50,Pisa,PI,Toscana,Centro,1,Provincia,,,,,,,,,,10.92,600.6
+47,Pistoia,PT,Toscana,Centro,1,Provincia,,,,,,,,,,8.04,442.19999999999993
+100,Prato,PO,Toscana,Centro,1,Provincia,,,,,,,,,,,
+52,Siena,SI,Toscana,Centro,1,Provincia,,,,,,,,,,,
+21,Bolzano/Bozen,BZ,Trentino-Alto Adige/Südtirol,Nord-est,2,Provincia autonoma,,,,,,,,,,,
+22,Trento,TN,Trentino-Alto Adige/Südtirol,Nord-est,2,Provincia autonoma,,,,,,,,,,,
+54,Perugia,PG,Umbria,Centro,1,Provincia,,,,,,,,,,,
+55,Terni,TR,Umbria,Centro,1,Provincia,,,,,,,,,,,
+7,Valle d'Aosta/Vallée d'Aoste,AO,Valle d'Aosta/Vallée d'Aoste,Nord-ovest,1,Provincia,,,,,,,,,,,
+25,Belluno,BL,Veneto,Nord-est,1,Provincia,,,,,,,,,,,
+28,Padova,PD,Veneto,Nord-est,1,Provincia,,,,,,,,,,,
+29,Rovigo,RO,Veneto,Nord-est,1,Provincia,,,,,,,,,,,
+26,Treviso,TV,Veneto,Nord-est,1,Provincia,,,,,,,,,,,
+227,Venezia,VE,Veneto,Nord-est,3,Citta metropolitana,,,,,,,,,,,
+23,Verona,VR,Veneto,Nord-est,1,Provincia,,,,,,,,,,,
+24,Vicenza,VI,Veneto,Nord-est,1,Provincia,,,,,,,,,,,

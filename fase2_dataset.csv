@@ -1,0 +1,108 @@
+sigla,capoluogo,provincia,regione,area,affitto_monolocale,affitto_bilocale,spesa_mensile_single,trasporti_mensile,utenze_mensile,ristorante_medio
+MI,Milano,Milano,Lombardia,Nord-Ovest,1200,1650,420,70,150,12
+MB,Monza,Monza e Brianza,Lombardia,Nord-Ovest,900,1200,380,55,140,11
+CO,Como,Como,Lombardia,Nord-Ovest,850,1150,370,55,140,11
+VA,Varese,Varese,Lombardia,Nord-Ovest,750,1000,360,50,135,10
+BG,Bergamo,Bergamo,Lombardia,Nord-Ovest,800,1100,370,55,140,11
+BS,Brescia,Brescia,Lombardia,Nord-Ovest,780,1050,365,55,138,10
+LC,Lecco,Lecco,Lombardia,Nord-Ovest,800,1100,365,55,138,11
+LO,Lodi,Lodi,Lombardia,Nord-Ovest,700,950,350,50,132,10
+PV,Pavia,Pavia,Lombardia,Nord-Ovest,650,880,345,50,130,10
+CR,Cremona,Cremona,Lombardia,Nord-Ovest,620,850,340,48,130,10
+MN,Mantova,Mantova,Lombardia,Nord-Ovest,600,820,335,48,128,10
+SO,Sondrio,Sondrio,Lombardia,Nord-Ovest,580,800,330,45,128,10
+TO,Torino,Torino,Piemonte,Nord-Ovest,720,980,360,65,138,11
+CN,Cuneo,Cuneo,Piemonte,Nord-Ovest,580,790,330,45,128,10
+NO,Novara,Novara,Piemonte,Nord-Ovest,600,820,335,45,130,10
+AT,Asti,Asti,Piemonte,Nord-Ovest,550,750,325,42,126,9
+AL,Alessandria,Alessandria,Piemonte,Nord-Ovest,550,750,325,42,126,9
+BI,Biella,Biella,Piemonte,Nord-Ovest,520,700,320,40,124,9
+VC,Vercelli,Vercelli,Piemonte,Nord-Ovest,520,700,320,40,124,9
+VB,Verbania,Verbano-Cusio-Ossola,Piemonte,Nord-Ovest,540,730,325,42,126,10
+GE,Genova,Genova,Liguria,Nord-Ovest,700,950,365,50,140,11
+SP,La Spezia,La Spezia,Liguria,Nord-Ovest,680,920,355,48,138,11
+IM,Imperia,Imperia,Liguria,Nord-Ovest,700,950,360,45,138,11
+SV,Savona,Savona,Liguria,Nord-Ovest,680,920,355,45,136,10
+AO,Aosta,Valle d'Aosta,Valle d'Aosta,Nord-Ovest,750,1000,365,48,140,11
+BZ,Bolzano,Bolzano,Trentino-Alto Adige,Nord-Est,1050,1450,400,58,150,13
+TN,Trento,Trento,Trentino-Alto Adige,Nord-Est,850,1150,375,55,142,12
+VE,Venezia,Venezia,Veneto,Nord-Est,950,1300,390,60,148,13
+PD,Padova,Padova,Veneto,Nord-Est,750,1020,370,58,140,11
+VR,Verona,Verona,Veneto,Nord-Est,780,1060,375,58,142,11
+TV,Treviso,Treviso,Veneto,Nord-Est,720,980,360,52,136,10
+VI,Vicenza,Vicenza,Veneto,Nord-Est,700,950,358,52,136,10
+BL,Belluno,Belluno,Veneto,Nord-Est,580,790,340,42,128,10
+RO,Rovigo,Rovigo,Veneto,Nord-Est,520,700,325,40,124,9
+TS,Trieste,Trieste,Friuli-Venezia Giulia,Nord-Est,750,1020,365,55,140,12
+UD,Udine,Udine,Friuli-Venezia Giulia,Nord-Est,650,880,350,48,132,10
+GO,Gorizia,Gorizia,Friuli-Venezia Giulia,Nord-Est,600,820,340,45,128,10
+PN,Pordenone,Pordenone,Friuli-Venezia Giulia,Nord-Est,620,840,342,45,130,10
+BO,Bologna,Bologna,Emilia-Romagna,Nord-Est,900,1220,390,62,148,12
+PR,Parma,Parma,Emilia-Romagna,Nord-Est,780,1060,370,55,140,11
+MO,Modena,Modena,Emilia-Romagna,Nord-Est,750,1020,365,52,138,11
+RE,Reggio Emilia,Reggio Emilia,Emilia-Romagna,Nord-Est,720,980,360,52,136,11
+RN,Rimini,Rimini,Emilia-Romagna,Nord-Est,700,950,360,50,136,12
+FE,Ferrara,Ferrara,Emilia-Romagna,Nord-Est,580,790,340,45,128,10
+FC,Forlì,Forlì-Cesena,Emilia-Romagna,Nord-Est,620,840,345,45,130,10
+PC,Piacenza,Piacenza,Emilia-Romagna,Nord-Est,620,840,345,48,130,10
+RA,Ravenna,Ravenna,Emilia-Romagna,Nord-Est,620,840,348,47,132,11
+FI,Firenze,Firenze,Toscana,Centro,1000,1380,395,65,150,13
+PO,Prato,Prato,Toscana,Centro,750,1020,360,52,136,10
+PI,Pisa,Pisa,Toscana,Centro,780,1060,370,52,140,12
+SI,Siena,Siena,Toscana,Centro,750,1020,368,48,138,12
+LI,Livorno,Livorno,Toscana,Centro,680,920,355,50,136,11
+LU,Lucca,Lucca,Toscana,Centro,700,950,358,48,136,11
+AR,Arezzo,Arezzo,Toscana,Centro,620,840,340,45,128,10
+PT,Pistoia,Pistoia,Toscana,Centro,650,880,345,48,130,10
+GR,Grosseto,Grosseto,Toscana,Centro,600,820,338,44,128,10
+MS,Massa,Massa-Carrara,Toscana,Centro,600,820,335,44,126,10
+RM,Roma,Roma,Lazio,Centro,1000,1380,400,65,152,12
+LT,Latina,Latina,Lazio,Centro,650,880,345,48,130,10
+FR,Frosinone,Frosinone,Lazio,Centro,500,680,320,40,122,9
+VT,Viterbo,Viterbo,Lazio,Centro,520,700,322,42,122,9
+RI,Rieti,Rieti,Lazio,Centro,480,650,315,38,118,9
+AN,Ancona,Ancona,Marche,Centro,620,840,345,48,130,10
+PU,Pesaro,Pesaro e Urbino,Marche,Centro,600,820,340,45,128,10
+MC,Macerata,Macerata,Marche,Centro,560,760,330,42,124,10
+FM,Fermo,Fermo,Marche,Centro,530,720,325,40,122,9
+AP,Ascoli Piceno,Ascoli Piceno,Marche,Centro,500,680,320,40,120,9
+PG,Perugia,Perugia,Umbria,Centro,600,820,340,48,128,10
+TR,Terni,Terni,Umbria,Centro,550,750,328,44,124,10
+AQ,L'Aquila,L'Aquila,Abruzzo,Centro,500,680,318,38,120,9
+PE,Pescara,Pescara,Abruzzo,Centro,580,790,335,48,128,10
+CH,Chieti,Chieti,Abruzzo,Centro,500,680,318,38,120,9
+TE,Teramo,Teramo,Abruzzo,Centro,480,650,315,38,118,9
+CB,Campobasso,Campobasso,Molise,Sud,450,610,308,36,116,9
+IS,Isernia,Isernia,Molise,Sud,420,570,300,34,114,8
+NA,Napoli,Napoli,Campania,Sud,650,880,350,55,138,10
+SA,Salerno,Salerno,Campania,Sud,520,700,320,42,122,9
+CE,Caserta,Caserta,Campania,Sud,500,680,315,40,120,9
+AV,Avellino,Avellino,Campania,Sud,430,580,305,36,116,8
+BN,Benevento,Benevento,Campania,Sud,420,570,300,35,114,8
+BA,Bari,Bari,Puglia,Sud,580,790,338,48,128,10
+LE,Lecce,Lecce,Puglia,Sud,500,680,320,42,120,9
+TA,Taranto,Taranto,Puglia,Sud,450,610,310,38,116,9
+FG,Foggia,Foggia,Puglia,Sud,430,580,305,36,114,8
+BR,Brindisi,Brindisi,Puglia,Sud,430,580,305,36,114,8
+BT,Barletta,Barletta-Andria-Trani,Puglia,Sud,420,570,300,35,112,8
+PZ,Potenza,Potenza,Basilicata,Sud,420,570,300,35,114,8
+MT,Matera,Matera,Basilicata,Sud,500,680,315,38,118,10
+CZ,Catanzaro,Catanzaro,Calabria,Sud,380,510,295,33,112,8
+CS,Cosenza,Cosenza,Calabria,Sud,380,510,292,33,110,8
+RC,Reggio Calabria,Reggio Calabria,Calabria,Sud,400,540,298,35,112,8
+KR,Crotone,Crotone,Calabria,Sud,350,470,285,30,108,8
+VV,Vibo Valentia,Vibo Valentia,Calabria,Sud,350,470,282,30,108,8
+PA,Palermo,Palermo,Sicilia,Isole,480,650,315,40,118,9
+CT,Catania,Catania,Sicilia,Isole,480,650,318,40,120,9
+ME,Messina,Messina,Sicilia,Isole,430,580,305,36,114,9
+SR,Siracusa,Siracusa,Sicilia,Isole,420,570,302,35,112,9
+AG,Agrigento,Agrigento,Sicilia,Isole,380,510,290,30,110,8
+RG,Ragusa,Ragusa,Sicilia,Isole,420,570,302,35,112,9
+TP,Trapani,Trapani,Sicilia,Isole,380,510,288,30,110,8
+EN,Enna,Enna,Sicilia,Isole,350,470,280,28,108,8
+CL,Caltanissetta,Caltanissetta,Sicilia,Isole,350,470,280,28,108,8
+CA,Cagliari,Cagliari,Sardegna,Isole,650,880,345,48,132,11
+SS,Sassari,Sassari,Sardegna,Isole,500,680,318,40,120,9
+NU,Nuoro,Nuoro,Sardegna,Isole,400,540,298,33,112,9
+OR,Oristano,Oristano,Sardegna,Isole,380,510,290,30,110,8
+SU,Carbonia,Sud Sardegna,Sardegna,Isole,420,570,300,33,114,9

@@ -1,0 +1,6 @@
+codice_uts,provincia,sigla,regione,ripartizione,tipologia_uts,tipologia_uts_nome,affitto_mensile_monolocale,affitto_mensile_bilocale,costo_vita_single,costo_vita_coppia,costo_vita_famiglia,stipendio_medio_lordo,fonte_affitto,fonte_costo_vita,fonte_stipendio,prezzo_affitto_mq,affitto_stimato_55mq
+69,Chieti,CH,Abruzzo,Sud,1,Provincia,,,,,,,,,,6.19,340.45000000000005
+66,L'Aquila,AQ,Abruzzo,Sud,1,Provincia,,,,,,,,,,7.69,422.95000000000005
+68,Pescara,PE,Abruzzo,Sud,1,Provincia,,,,,,,,,,8.6,473.0
+67,Teramo,TE,Abruzzo,Sud,1,Provincia,,,,,,,,,,7.73,425.15000000000003
+77,Matera,MT,Basilicata,Sud,1,Provincia,,,,,,,,,,8.06,443.3
